@@ -1,6 +1,6 @@
 ---
 title: Detailed Walkthrough on Wanancry Ransomware
-date: 2023-10-26 12:00
+date: 2023-10-25 10:00
 categories: [security, malware]
 tags: [malware, wannacry, ransomware]
 
