@@ -17,19 +17,33 @@ This stealer performs few actions of creating files and folder inside `temp` dir
 
 
 Secondly,it performs browser stealing activities which extracts user information such as Passwords and username and website from it and save it in `passwords.txt` file. the sample which we are referencing was modified to query browser data which belongs to Chrome. 
+
 ![First Image](https://github.com/SaiKrishnaKarnati/SaiKrishnaKarnati.github.io/blob/main/assets/sapphire/1.png?raw=true)
 
 However, Code published on github searches for all Browsers hardcoded with their paths. If these paths exists, then it will extract  user information and save it in a log file.
+
 ![Second Image](https://github.com/SaiKrishnaKarnati/SaiKrishnaKarnati.github.io/blob/main/assets/sapphire/2.png?raw=true)
 
 Apart form that , it grabs files from desktop which has file extensions such as `pdf` and `doc` and save all these files inside `Grabbingfiles` directory which is created before inside `temp` directory. Later, it takes screenshot of Desktop and saves it in `sapex` directory.
+
 ![Third Image](https://github.com/SaiKrishnaKarnati/SaiKrishnaKarnati.github.io/blob/main/assets/sapphire/3.png?raw=true)
 
 After performing all these actions, these data are zipped with `cp866` encoding and saved it in temp directory with the name `log.zip`.
+
 ![Fourth Image](https://github.com/SaiKrishnaKarnati/SaiKrishnaKarnati.github.io/blob/main/assets/sapphire/4.png?raw=true)
 
 Further, it starts querying for information such as Hostname, Ipaddress, Username, OSVersion, HWID, GPUName All these information sent inside a message body via mail over SMTP .
+
 ![Fifth Image](https://github.com/SaiKrishnaKarnati/SaiKrishnaKarnati.github.io/blob/main/assets/sapphire/5.png?raw=true)
 
 
 Finally, it deletes the folder `sapex` inside temp folder after performing all above activities.
+
+
+### Indicator of Compromise
+```
+8749bc50fc2b1f0a5f7a1c3c1a3132c45c30ba7dc7a849523bb42cf617fc4a65
+valeratototo@gmail.com
+SaphirixBeta.exe
+piqzilljyxxcesi@list.ru
+```
